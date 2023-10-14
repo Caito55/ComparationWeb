@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador Multifuncional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comparador Multifuncional</h1>
+    </header>
+    
+    <main>
+        <section id="comparadorTexto">
+            <h2>Comparador de Texto</h2>
+            <textarea id="texto1" placeholder="Texto 1"></textarea>
+            <textarea id="texto2" placeholder="Texto 2"></textarea>
+            <button id="compararTexto">Comparar Texto</button>
+            <div id="resultadoTexto"></div>
+        </section>
+
+        <section id="comparadorPDF">
+            <h2>Comparador de PDF</h2>
+            <input type="file" id="archivoPDF1">
+            <input type="file" id="archivoPDF2">
+            <button id="compararPDF">Comparar PDF</button>
+            <div id="resultadoPDF"></div>
+        </section>
+
+        <section id="comparadorImagen">
+            <h2>Comparador de Imagen</h2>
+            <input type="file" id="imagen1">
+            <input type="file" id="imagen2">
+            <button id="compararImagen">Comparar Imagen</button>
+            <div id="resultadoImagen"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
